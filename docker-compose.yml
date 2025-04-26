@@ -1,6 +1,6 @@
 services:
-  software1:
-    container_name: software1
+  ogathon-pep8:
+    container_name: ogathon-pep8
     build: .
     ports:
       - "8080:8080"
