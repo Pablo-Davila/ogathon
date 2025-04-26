@@ -1,0 +1,6 @@
+services:
+  software1:
+    container_name: software1
+    build: .
+    ports:
+      - "8080:8080"
