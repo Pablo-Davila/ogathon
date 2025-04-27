@@ -7,7 +7,7 @@ from scipy.optimize import linear_sum_assignment
 
 def create_app() -> FastAPI:
 
-    app = FastAPI()
+    app = FastAPI(docs_url="/swagger")
 
     @app.get("/challenges/solution-1")
     def solution_1(n: int):
